@@ -1,8 +1,8 @@
 "use client";
 
-import { ConvexBetterAuthProvider } from "@convex-dev/better-auth/react";
 import { env } from "@agon/env/web";
 import { Toaster } from "@agon/ui/components/sonner";
+import { ConvexBetterAuthProvider } from "@convex-dev/better-auth/react";
 import { ConvexReactClient } from "convex/react";
 
 import { authClient } from "@/lib/auth-client";
@@ -32,7 +32,7 @@ export default function Providers({
 			>
 				{children}
 			</ConvexBetterAuthProvider>
-			<Toaster richColors />
+			<Toaster offset={{ bottom: "1.25rem" }} position="bottom-center" />
 		</ThemeProvider>
 	);
 }

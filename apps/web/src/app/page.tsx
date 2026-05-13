@@ -1,3 +1,5 @@
+import { Waitlist } from "@/components/waitlist";
+
 export default function Home() {
-	return <div />;
+	return <Waitlist />;
 }

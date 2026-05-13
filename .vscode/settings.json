@@ -17,16 +17,12 @@
     "**/components.json": true,
     "**/favicon.ico": true,
     "**/*.css": true,
+    "**/tsconfig.*": true,
 
     /* DOCS */
     "**/.source": true,
     "**/source.config.ts": true,
     "**/docs/src/lib": true,
-
-    /* EXTENSION */
-    "**/.wxt": true,
-    "**/assets": true,
-    "**/wxt.config.ts": true,
     
     /* NATIVE */
     "**/.expo":true,
@@ -49,7 +45,6 @@
     "bun.lock": true,
     // "**/package.json": true,
     "skills-lock.json": true,
-    "**/tsconfig.json": true,
     "turbo.json": true,
   },
 

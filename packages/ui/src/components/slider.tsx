@@ -2,8 +2,8 @@
 
 "use client";
 
-import { Slider as SliderPrimitive } from "@base-ui/react/slider";
 import { cn } from "@agon/ui/lib/utils";
+import { Slider as SliderPrimitive } from "@base-ui/react/slider";
 import * as React from "react";
 
 function Slider({
