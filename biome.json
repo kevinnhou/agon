@@ -16,7 +16,8 @@
       "!**/routeTree.gen.ts",
       "!**/.expo",
       "!**/.source",
-      "!**/convex/_generated",
+      "!**/packages/ui/src",
+      "!*.css",
       "!bun.lock"
     ]
   },

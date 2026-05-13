@@ -1,6 +1,5 @@
 "use client";
 
-import { Combobox as ComboboxPrimitive } from "@base-ui/react";
 import { Button } from "@agon/ui/components/button";
 import {
 	InputGroup,
@@ -9,6 +8,7 @@ import {
 	InputGroupInput,
 } from "@agon/ui/components/input-group";
 import { cn } from "@agon/ui/lib/utils";
+import { Combobox as ComboboxPrimitive } from "@base-ui/react";
 import { CheckIcon, ChevronDownIcon, XIcon } from "lucide-react";
 import * as React from "react";
 

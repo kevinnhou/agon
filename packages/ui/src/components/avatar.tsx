@@ -1,7 +1,7 @@
 "use client";
 
-import { Avatar as AvatarPrimitive } from "@base-ui/react/avatar";
 import { cn } from "@agon/ui/lib/utils";
+import { Avatar as AvatarPrimitive } from "@base-ui/react/avatar";
 import type * as React from "react";
 
 function Avatar({

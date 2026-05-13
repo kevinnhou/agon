@@ -2,8 +2,6 @@
 
 "use client";
 
-import { mergeProps } from "@base-ui/react/merge-props";
-import { useRender } from "@base-ui/react/use-render";
 import { Button } from "@agon/ui/components/button";
 import { Input } from "@agon/ui/components/input";
 import { Separator } from "@agon/ui/components/separator";
@@ -22,6 +20,8 @@ import {
 } from "@agon/ui/components/tooltip";
 import { useIsMobile } from "@agon/ui/hooks/use-mobile";
 import { cn } from "@agon/ui/lib/utils";
+import { mergeProps } from "@base-ui/react/merge-props";
+import { useRender } from "@base-ui/react/use-render";
 import { cva, type VariantProps } from "class-variance-authority";
 import { PanelLeftIcon } from "lucide-react";
 import * as React from "react";

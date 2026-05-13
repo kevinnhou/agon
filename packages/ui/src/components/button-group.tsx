@@ -1,8 +1,7 @@
+import { Separator } from "@agon/ui/components/separator";
+import { cn } from "@agon/ui/lib/utils";
 import { mergeProps } from "@base-ui/react/merge-props";
 import { useRender } from "@base-ui/react/use-render";
-import { Separator } from "@agon/ui/components/separator";
-
-import { cn } from "@agon/ui/lib/utils";
 import { cva, type VariantProps } from "class-variance-authority";
 
 const buttonGroupVariants = cva(
