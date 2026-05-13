@@ -8,10 +8,12 @@
     "start": "next start"
   },
   "dependencies": {
-    "@convex-dev/better-auth": "catalog:",
     "@agon/backend": "workspace:*",
     "@agon/env": "workspace:*",
     "@agon/ui": "workspace:*",
+    "@convex-dev/better-auth": "catalog:",
+    "@hookform/resolvers": "^5.2.2",
+    "@paper-design/shaders-react": "^0.0.76",
     "@tanstack/react-form": "^1.28.0",
     "babel-plugin-react-compiler": "^1.0.0",
     "better-auth": "catalog:",
@@ -22,6 +24,7 @@
     "next-themes": "catalog:",
     "react": "catalog:",
     "react-dom": "catalog:",
+    "react-hook-form": "^7.68.0",
     "sonner": "catalog:",
     "zod": "catalog:"
   },
