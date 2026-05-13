@@ -22,6 +22,7 @@
     ],
     "paths": {
       "@/*": ["./src/*"],
+      "@agon/backend/*": ["../../packages/backend/*"],
       "@agon/ui/*": ["../../packages/ui/src/*"]
     }
   },
